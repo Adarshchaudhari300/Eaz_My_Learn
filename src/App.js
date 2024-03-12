@@ -4,6 +4,7 @@ import Home from './Home';
 import Footer from './Footer';
 import Login from './Login';
 import './App.css';
+import Subject from './Subjects';
 
 
 function App() {
@@ -17,11 +18,17 @@ function App() {
           <Navbar />
 
           <Switch>
+
             <Route exact path='/'>
               <Home />
             </Route>
+
             <Route exact path='/login'>
               <Login />
+            </Route>
+
+            <Route exact path='/subject'>
+              <Subject />
             </Route>
 
 

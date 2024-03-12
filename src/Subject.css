@@ -1,0 +1,43 @@
+.subject {
+    height: 74.2vh;
+    border: 1px black solid;
+    margin: 1vw 5vw 0vw 5vw;
+    background-color: rgb(221, 214, 216);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+* {
+    color: rgb(181, 87, 87);
+}
+
+.subbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border-bottom: 3px solid rgb(149, 129, 133);
+    font-size: 1.3vw;
+    font-weight: bolder;
+    height: 6vh;
+    align-items: center;
+}
+
+.subbar div {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #9b3a57;
+}
+.subject1{
+    height: 68vh;
+    border: 3px solid black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    flex-direction: row;
+
+}
+.subicon{
+    width: 25vw;
+}
